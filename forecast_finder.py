@@ -5,7 +5,7 @@ def forecast_finder(location, num_days):
     print(location)
     print(num_days)
 
-    key = 'e2dfcda79bb44a58a31123829241809'
+    key = 'ENTER YOUR API KEY HERE'
     api_url = f'http://api.weatherapi.com/v1/forecast.json?key={key}&q={location}&days={num_days}'
     forecast_result = ''
 
